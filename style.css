@@ -1,24 +1,32 @@
-#top {  
-    text-align: center;
-    padding: 10px;
-    background-image: linear-gradient(to right, rgb(34, 129, 238) , rgb(139, 255, 7));
-    word-spacing: 80px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-a {
-    text-decoration: none;
+body {
+    background-image: url(assets/images/background.png);
 }
 
-#downloads {
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.title {
+    font-family: zekton;
+    src: url(http://www.dafont.com/zekton.font);
+    position: absolute;
+    font-size: 30px;
+    left: 30px;
+    top: -20px;
 }
 
-#title {
-    text-align: center;
-    padding: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: xx-large;
-
-
+.links {
+    font-family: zekton;
+    src: url(http://www.dafont.com/zekton.font);
+    position: absolute;
+    right: 45px;
+    top: 40px;
+    word-spacing: 70px;
 }
+
+.details {
+    font-family: zekton;
+    src: url(http://www.dafont.com/zekton.font);
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    color: white;
+}
+
+
